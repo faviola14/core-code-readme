@@ -1,7 +1,7 @@
 # core-code-readme
 
-##WEEK 1 
-###1. Pizza
+## WEEK 1 
+### 1. Pizza
 
 1. Buscar Ingredientes
 2. Buscar recipientes
@@ -17,7 +17,7 @@
 12.Fin
 
 
-###2. Hot N Cold
+### 2. Hot N Cold
 1. Preguntar por la temperatura
 2. Preguntar en que escala esta la temperatura
 3. Si la temperatuta esta en Celcius:
@@ -32,7 +32,7 @@
 6. Fin
 
 
-###3. Geometry
+### 3. Geometry
 Preguntar de que figura se quiere saber el volumen
 1. Si la respuesta es: Piramide
   Multiplicar la base por la altura
@@ -49,7 +49,7 @@ Preguntar de que figura se quiere saber el volumen
   
   
   
-###1. Numbers
+### 1. Numbers
 1. Preguntar por un número
 2. Si el número es dividible por 2:
   Devolver "El núemro es par"
@@ -60,14 +60,14 @@ Preguntar de que figura se quiere saber el volumen
 ![numbers](https://user-images.githubusercontent.com/98840536/230831190-3a097d85-36f6-43fc-a158-2666bc357913.png)
 
 
-###2. Date of birth
+### 2. Date of birth
 1. Preguntar por la fecha de nacimiento
 2. Restar la fecha actual a la fecha de nacimiento
 3. Devolver el resultado
 4. Fin
 
 
-###3. Treasures
+### 3. Treasures
 Sabiendo que los tres mensajes son mentiras:
 Sabemos que:
 1. El cofre de enmedio no tiene un tesoro (B)
