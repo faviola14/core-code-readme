@@ -57,7 +57,7 @@ Preguntar de que figura se quiere saber el volumen
   Devolver "El número no es par"
 4. Fin
 
-![numbers](https://user-images.githubusercontent.com/98840536/230831190-3a097d85-36f6-43fc-a158-2666bc357913.png)
+![Untitled Diagram-Page-7 drawio](https://user-images.githubusercontent.com/98840536/230909727-307aa505-18a9-4c99-96cd-52f0d9efe286.png)
 
 
 ### 2. Date of birth
@@ -75,3 +75,4 @@ Sabemos que:
 3. Más de un cofre tiene un tesoro.
 
 Por lo tanto los cofres **A y C** tienen un tesoro dentro.
+
