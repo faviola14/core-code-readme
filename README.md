@@ -76,3 +76,31 @@ Sabemos que:
 
 Por lo tanto los cofres **A y C** tienen un tesoro dentro.
 
+
+
+## WEEK 2 
+
+### MONDAY
+### Logic Problem
+Sabemos que solo los que estudiaron no mienten entonces
+1. Alice, que dice que nadie estudio, pero eso significaría que todos estan mintiendo, incluso ella.Así que ella esta mintiendo. Por lo tanto al menos 1 persona estudió
+2. Bob, podría estar diciendo la verdad, ya que su afirmación no contradice a las demás. 
+3. Charlie, dice que dos personas estudiaron, eso significaria que dos personas no mienten, pero eso generaria una contradicción.
+4. Dan, dice que tres personas estudiaron, eso significaria que tres personas no mienten, pero eso generaria una contradicción.
+5. Eva, dice que cuatro personas estudiaron, eso significaria que cuatro personas no mienten, pero eso generaria una contradicción.
+
+En conclusión **Bod** dice la verdad.
+
+### Milk vrs Cereal
+
+1. Buscar un plato hondo
+2. Colocar la leche en el plato
+3. Agregar el cereal
+4. Preguntar si se desea agregar algún acompañamiento
+    Agregar el acompañamiento
+5. Fin
+
+![Untitled Diagram-Page-8 drawio](https://user-images.githubusercontent.com/98840536/231029277-73d282af-90d0-429a-9157-4350341bca6f.png)
+
+
+
