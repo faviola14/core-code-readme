@@ -89,7 +89,8 @@ Sabemos que solo los que estudiaron no mienten entonces
 4. Dan, dice que tres personas estudiaron, eso significaria que tres personas no mienten, pero eso generaria una contradicción.
 5. Eva, dice que cuatro personas estudiaron, eso significaria que cuatro personas no mienten, pero eso generaria una contradicción.
 
-En conclusión **Bod** dice la verdad.
+En conclusión **Bob** dice la verdad.
+
 
 ### Milk vrs Cereal
 
