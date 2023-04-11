@@ -104,4 +104,18 @@ En conclusión **Bob** dice la verdad.
 ![Untitled Diagram-Page-8 drawio](https://user-images.githubusercontent.com/98840536/231029277-73d282af-90d0-429a-9157-4350341bca6f.png)
 
 
+### TUESDAY
+
+### 1. Install PSeInt
+
+![pseint S](https://user-images.githubusercontent.com/98840536/231198163-ebced0f8-b3a4-43dd-a12b-4339a269b59e.PNG)
+
+
+### 2. Print my Name
+
+![tuesday2](https://user-images.githubusercontent.com/98840536/231199231-654a0ca6-ff8c-4efa-bec6-6ec325eccfdd.PNG)
+
+
+### 3. Print my name & age
+![tuesday3](https://user-images.githubusercontent.com/98840536/231201708-51f0b6d0-9b38-4a98-8d89-644aee91675b.PNG)
 
