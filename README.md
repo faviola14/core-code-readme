@@ -118,4 +118,3 @@ En conclusión **Bob** dice la verdad.
 
 ### 3. Print my name & age
 ![tuesday3](https://user-images.githubusercontent.com/98840536/231201708-51f0b6d0-9b38-4a98-8d89-644aee91675b.PNG)
-
