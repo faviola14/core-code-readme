@@ -75,5 +75,9 @@ En conclusión **Bob** dice la verdad.
 14. ~((T | F ) & (F | F)) & T = F   ❌
 
 ### 2. Boolean Results
+
+![Boolean](https://user-images.githubusercontent.com/98840536/232388021-53f3f726-75f2-4c35-9c34-9735c6ed84d6.PNG)
+
+
 ### 3. Identify Odd and Even Numbers
  
