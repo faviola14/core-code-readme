@@ -57,7 +57,7 @@ En conclusión **Bob** dice la verdad.
 
 ### THURSDAY 
 
-### 1. Algorithm game
-### 2.
-### 3.
+### 1. Thruth Tables
+### 2. Boolean Results
+### 3. Identify Odd and Even Numbers
  
