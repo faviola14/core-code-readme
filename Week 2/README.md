@@ -81,3 +81,5 @@ En conclusión **Bob** dice la verdad.
 
 ### 3. Identify Odd and Even Numbers
  
+
+![Parimpar](https://user-images.githubusercontent.com/98840536/232389871-18cb130a-a373-4c48-8008-227991fc8adf.PNG)
