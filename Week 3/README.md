@@ -90,6 +90,53 @@ FinAlgoritmo <br>
 
 ### 2. Multi Option Program
 
+Algoritmo MultiOptionProgram <br>
+	Escribir "=======MULTIOPCION=======" <br>
+	Escribir "Opciones Disponibles" <br>
+	Escribir "1. Suma de dos números" <br>
+	Escribir "2. Imprimir día de la semana" <br>
+	Escribir "3. Calcular la longitud del texto" <br>
+	Escribir "Ingrese la opción seleccionada: " <br>
+	Leer opc <br>
+	Segun opc Hacer <br>
+		"1": <br>
+			Escribir "Ingrese el primer número: " <br>
+			Leer num1 <br>
+			Escribir "Ingrese el segundo número: " <br>
+			Leer num2 <br>
+			res=num1+num2 <br>
+			Escribir "Procesando: "+ConvertirATexto(num1)+ " + "+ConvertirATexto(num2) <br>
+			Escribir "Resultado: "+ConvertirATexto(res) <br>
+		"2": <br>
+			Escribir "Ingrese el día de la semana: (1-7)" <br>
+			Leer dia <br>
+			Segun dia Hacer <br>
+				"1": <br>
+					Escribir "Lunes" <br>
+				"2": <br>
+					Escribir "Martes" <br>
+				"3": <br>
+					Escribir "Miércoles" <br>
+				"4": <br>
+					Escribir "Jueves" <br>
+				"5": <br>
+					Escribir "Viernes" <br>
+				"6": <br>
+					Escribir "Sábado" <br>
+				"7": <br>
+					Escribir "Domingo" <br>
+				De Otro Modo: <br>
+					Escribir "Opción Incorrecta" <br>
+			Fin Segun <br>
+		"3": <br>
+			Escribir "Ingrese el texto" <br>
+			Leer txt <br>
+			resp=Longitud(txt) <br>
+			Escribir "La longitud es: "+ ConvertirATexto(resp) <br>
+		De Otro Modo: <br>
+			Escribir "Opción Incorrecta" <br>
+	Fin Segun <br>
+FinAlgoritmo <br>
 
 ### WEDNESDAY
 ### 1. Multiplication Tables
