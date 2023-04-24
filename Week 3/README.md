@@ -8,33 +8,33 @@ Algoritmo SimpleCalculator <br>
 	Escribir "Ingrese el segundo número: " <br>
 	Leer num2 <br>
 	Escribir "Ingrese una operación: +,-,*,/" <br>
-	Leer operacion
-	si operacion=="+"
-		res=num1+num2
-		Escribir "Procesando: "+ConvertirATexto(num1)+ " + "+ConvertirATexto(num2)
-		Escribir "Resultado: "+ConvertirATexto(res)
-	SiNo
-		si operacion=="-"
-			res=num1-num2
-			Escribir "Procesando: "+ConvertirATexto(num1)+ " - "+ConvertirATexto(num2)
-			Escribir "Resultado: "+ConvertirATexto(res)
-		SiNo
-			si operacion=="*"
-				res=num1*num2
-				Escribir "Procesando: "+ConvertirATexto(num1)+ " * "+ConvertirATexto(num2)
-				Escribir "Resultado: "+ConvertirATexto(res)
-			SiNo
-				si operacion=="/"
-					res=num1/num2
-					Escribir "Procesando: "+ConvertirATexto(num1)+ " / "+ConvertirATexto(num2)
-					Escribir "Resultado: "+ConvertirATexto(res)
-				SiNo
-					Escribir "El simbolo es incorrecto"
-				FinSi
-			FinSi
-		FinSi
-	FinSi
-FinAlgoritmo
+	Leer operacion <br>
+	si operacion=="+" <br>
+		res=num1+num2 <br>
+		Escribir "Procesando: "+ConvertirATexto(num1)+ " + "+ConvertirATexto(num2) <br>
+		Escribir "Resultado: "+ConvertirATexto(res) <br>
+	SiNo <br>
+		si operacion=="-" <br>
+			res=num1-num2 <br>
+			Escribir "Procesando: "+ConvertirATexto(num1)+ " - "+ConvertirATexto(num2) <br>
+			Escribir "Resultado: "+ConvertirATexto(res) <br>
+		SiNo <br>
+			si operacion=="*" <br>
+				res=num1*num2 <br>
+				Escribir "Procesando: "+ConvertirATexto(num1)+ " * "+ConvertirATexto(num2) <br>
+				Escribir "Resultado: "+ConvertirATexto(res) <br>
+			SiNo <br>
+				si operacion=="/" <br>
+					res=num1/num2 <br>
+					Escribir "Procesando: "+ConvertirATexto(num1)+ " / "+ConvertirATexto(num2) <br>
+					Escribir "Resultado: "+ConvertirATexto(res) <br>
+				SiNo <br>
+					Escribir "El simbolo es incorrecto" <br>
+				FinSi <br>
+			FinSi <br>
+		FinSi <br>
+	FinSi <br>
+FinAlgoritmo <br>
 
 
 
