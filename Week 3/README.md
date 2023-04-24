@@ -2,12 +2,12 @@
 
 ### MONDAY
 ### 1. Simple Calculator
-Algoritmo SimpleCalculator
-	Escribir "Ingrese el primer número: "
-	Leer num1
-	Escribir "Ingrese el segundo número: "
-	Leer num2
-	Escribir "Ingrese una operación: +,-,*,/"
+Algoritmo SimpleCalculator <br>
+	Escribir "Ingrese el primer número: " <br>
+	Leer num1 <br>
+	Escribir "Ingrese el segundo número: " <br>
+	Leer num2 <br>
+	Escribir "Ingrese una operación: +,-,*,/" <br>
 	Leer operacion
 	si operacion=="+"
 		res=num1+num2
