@@ -2,7 +2,7 @@
 
 ### MONDAY
 ### 1. Simple Calculator
-Algoritmo SimpleCalculator <br>
+<p>Algoritmo SimpleCalculator <br>
 	Escribir "Ingrese el primer número: " <br>
 	Leer num1 <br>
 	Escribir "Ingrese el segundo número: " <br>
@@ -34,7 +34,7 @@ Algoritmo SimpleCalculator <br>
 			FinSi <br>
 		FinSi <br>
 	FinSi <br>
-FinAlgoritmo <br>
+FinAlgoritmo <br></p>
 
 
 
