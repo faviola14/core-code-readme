@@ -40,6 +40,46 @@ En conclusión **Bob** dice la verdad.
 ### 3. Print my name & age
 ![tuesday3](https://user-images.githubusercontent.com/98840536/231201708-51f0b6d0-9b38-4a98-8d89-644aee91675b.PNG)
 
+
 ### WEDNESDAY
- 
+
+### 1. Algorithm game
+
+![Opera Instantánea_2023-04-16_213435_www w3schools com](https://user-images.githubusercontent.com/98840536/232371887-d024ea15-dfba-4d3a-a837-8d7e61b8e77c.png)
+
+### 2. Mod
+
+![modPSint](https://user-images.githubusercontent.com/98840536/232372482-5b5d5272-fbfc-4c50-898d-d4c2f0773013.PNG)
+
+### 3. Register form
+
+![RegisterForm](https://user-images.githubusercontent.com/98840536/232373284-e331bb58-43c9-4b0e-a100-e77590d64584.PNG)
+
 ### THURSDAY 
+
+### 1. Thruth Tables ✅  ❌
+
+1. T & T = T    ✅
+2. T & F = F    ✅
+3. F & T = T    ❌
+4. F & F = F    ✅
+5. T | T = T    ✅
+6. T | F = F    ❌
+7. F | T = T    ✅
+8. F | F = F    ✅
+9. ~T = T       ❌
+10. ~F = T      ✅
+11. (T & F) | (~F) = T              ✅
+12. (T | F ) & (F | F) = T          ❌
+13. ~((T | F ) & (F | F)) & F = T   ❌
+14. ~((T | F ) & (F | F)) & T = F   ❌
+
+### 2. Boolean Results
+
+![Boolean](https://user-images.githubusercontent.com/98840536/232388021-53f3f726-75f2-4c35-9c34-9735c6ed84d6.PNG)
+
+
+### 3. Identify Odd and Even Numbers
+ 
+
+![Parimpar](https://user-images.githubusercontent.com/98840536/232389871-18cb130a-a373-4c48-8008-227991fc8adf.PNG)
