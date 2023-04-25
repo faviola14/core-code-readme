@@ -186,7 +186,7 @@ Algoritmo SimpleCalculatorSwitch <br>
 		Fin Segun <br>
 		Escribir "Deseas Continuar con la operación? Si/No" <br>
 		Leer continuar <br>
-	Mientras Que continuar=="Si" | continuar=="si" <br>
+	Hasta Que continuar=="No" | continuar=="no" <br>
 FinAlgoritmo <br>
 
 
