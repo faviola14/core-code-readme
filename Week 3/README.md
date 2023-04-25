@@ -139,8 +139,56 @@ Algoritmo MultiOptionProgram <br>
 FinAlgoritmo <br>
 
 ### WEDNESDAY
-### 1. Multiplication Tables
+### 1. Multiplication Tables <br>
+
+Algoritmo MultiplicationTables <br>
+	Escribir "Ingrese la tabla a multiplicar" <br>
+	leer num <br>
+	contador=1 <br>
+	Escribir "Tabla del "+ num <br>
+	Mientras contador<11 Hacer <br>
+		res=ConvertirANumero(num)*contador <br>
+		Escribir num+" * "+ ConvertirATexto(contador)+ " = "+ ConvertirATexto(res) <br>
+		contador=contador+1 <br>
+	Fin Mientras <br>
+FinAlgoritmo <br>
+
+
 ### 2.  Simple calculator with Do While
+
+Algoritmo SimpleCalculatorSwitch <br>
+	Repetir <br>
+		Escribir "Ingrese el primer número: " <br>
+		Leer num1 <br>
+		Escribir "Ingrese el segundo número: " <br>
+		Leer num2 <br>
+		Escribir "Ingrese una operación: +,-,*,/" <br>
+		Leer operacion <br>
+		Segun operacion Hacer <br>
+			"+": <br>
+				res=num1+num2 <br>
+				Escribir "Procesando: "+ConvertirATexto(num1)+ " + "+ConvertirATexto(num2) <br>
+				Escribir "Resultado: "+ConvertirATexto(res) <br>
+			"-": <br>
+				res=num1-num2 <br>
+				Escribir "Procesando: "+ConvertirATexto(num1)+ " - "+ConvertirATexto(num2) <br>
+				Escribir "Resultado: "+ConvertirATexto(res) <br>
+			"*": <br>
+				res=num1*num2 <br>
+				Escribir "Procesando: "+ConvertirATexto(num1)+ " * "+ConvertirATexto(num2) <br>
+				Escribir "Resultado: "+ConvertirATexto(res) <br>
+			"/": <br>
+				res=num1/num2 <br>
+				Escribir "Procesando: "+ConvertirATexto(num1)+ " / "+ConvertirATexto(num2) <br>
+				Escribir "Resultado: "+ConvertirATexto(res) <br>
+			De Otro Modo: <br>
+				Escribir "El simbolo es incorrecto" <br>
+		Fin Segun <br>
+		Escribir "Deseas Continuar con la operación? Si/No" <br>
+		Leer continuar <br>
+	Mientras Que continuar=="Si" | continuar=="si" <br>
+FinAlgoritmo <br>
+
 
 ### THURSDAY
 ### 1. Multiplication Tables with For
