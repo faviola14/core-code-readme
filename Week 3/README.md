@@ -250,5 +250,5 @@ Algoritmo Greetings <br>
 		FinSi <br>
 		Escribir "Desea Continuar? Si/No" <br>
 		Leer resp <br>
-	Mientras Que resp<>"No" | resp<>"no" | resp<>"NO" <br>
+	Mientras Que resp=="Si" | resp=="si" | res=="SI" <br>
 FinAlgoritmo <br>
