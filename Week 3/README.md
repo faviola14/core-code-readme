@@ -192,5 +192,63 @@ FinAlgoritmo <br>
 
 ### THURSDAY
 ### 1. Multiplication Tables with For
+
+Algoritmo MultiplicationTablesFor <br>
+	Escribir "Ingrese la tabla a multiplicar" <br>
+	leer num <br>
+	contador=1 <br>
+	Escribir "Tabla del "+ num <br>
+	Para x<-1 Hasta 10 Con Paso 1 Hacer <br>
+		res=ConvertirANumero(num)*x <br>
+		Escribir num+" * "+ ConvertirATexto(x)+ " = "+ ConvertirATexto(res) <br>
+	Fin Para <br>
+FinAlgoritmo <br>
+
 ### 2. Ascending and Descending Numbers
+
+Algoritmo AscendingDescendingNumbers <br>
+	Escribir "Ingrese un número" <br>
+	Leer num <br>
+	Escribir "Operaciones Disponibles" <br>
+	Escribir "Imprimir en Orden Ascendente" <br>
+	Escribir "Imprimir en Orden Descendente" <br>
+	Escribir "Ingrese operación a ejecutar" <br>
+	Leer opc <br>
+	Segun opc Hacer <br>
+		"1": <br>
+			Para x<-0 Hasta num Con Paso 1 Hacer <br>
+				Escribir x <br>
+			Fin Para <br>
+		"2": <br>
+			Para x<-num Hasta 0 Con Paso -1 Hacer <br>
+				Escribir x <br>
+			Fin Para <br>
+		De Otro Modo: <br>
+			Escribir "No ingreso una opción correcta" <br>
+	Fin Segun <br>
+FinAlgoritmo <br>
+
+
 ### 3. Greetings
+
+Algoritmo Greetings <br>
+	Repetir <br>
+		Escribir  "Ingrese la hora actual (0-23)" <br>
+		Leer  hora <br>
+		si ConvertirANumero(hora)<=23 &ConvertirANumero(hora)>=0 entonces <br>
+			si ConvertirANumero(hora)<=12 Entonces <br>
+				Escribir  "Buenos Días!" <br>
+			FinSi <br>
+			si ConvertirANumero(hora)<=18 &  ConvertirANumero(hora)>12 Entonces <br>
+				Escribir  "Buenas Tardes!" <br>
+			FinSi <br>
+			si ConvertirANumero(hora)<=23  & ConvertirANumero(hora)>18 Entonces <br>
+				Escribir  "Buenas Noches!" <br>
+			FinSi <br>
+		SiNo <br>
+			Escribir "La hora fue ingresada incorrectamente" <br>
+		FinSi <br>
+		Escribir "Desea Continuar? Si/No" <br>
+		Leer resp <br>
+	Mientras Que resp<>"No" | resp<>"no" | resp<>"NO" <br>
+FinAlgoritmo <br>
