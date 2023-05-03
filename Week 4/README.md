@@ -126,6 +126,40 @@ Algoritmo TossCoin <br>
 FinAlgoritmo <br>
 
 ### THURSDAY
-### 1. Structure of a function
+
 ### 2. Total Price
+
+Funcion total <-TotalPrice ( precio,iva ) <br>
+	Definir total Como Real <br>
+	total=0 <br>
+	si precio>3000 Entonces <br>
+		total= precio+ ((precio*iva)/100) <br>
+		total= total- ((total*10)/100) <br>
+	SiNo <br>
+		total= (precio*iva)/100 <br>
+	FinSi <br>
+Fin Funcion <br>
+
+Algoritmo TotalPricex <br>
+	imprimir TotalPrice(5000,21) <br>
+FinAlgoritmo <br>
+
 ### 3. Reverse Direction and Size
+
+Funcion palabraA <- ReverseDirectionAndSize ( palabra ) <br>
+	definir palabraA Como Caracter <br>
+	palabraA="" <br>
+	Para x=Longitud(palabra) Hasta -1 Con Paso -1 Hacer <br>
+		letra= Subcadena(palabra,x,x) <br>
+		si letra == Mayusculas(letra) Entonces <br>
+			letra= Minusculas(letra) <br>
+		sino  <br>
+			letra= Mayusculas((letra)) <br>
+		FinSi <br>
+		palabraA= Concatenar(palabraA,letra) <br>
+	Fin Para <br>
+Fin Funcion <br>
+
+Algoritmo example_ReverseDirectionAndSize <br>
+	Imprimir ReverseDirectionAndSize("Hello") <br>
+FinAlgoritmo <br>
