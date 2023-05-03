@@ -51,9 +51,34 @@ FinAlgoritmo <br>
 
 ### TUESDAY
 
-### 1. Predefined Functions
 ### 2. Full Name
+
+Algoritmo FullName <br>
+	Escribir  "Ingrese su primer nombre" <br>
+	Leer nombreP <br>
+	Escribir  "Ingrese su segundo nombre" <br>
+	Leer nombreS <br>
+	nombreP=Minusculas(nombreP) <br>
+	nombreS=Minusculas(nombreS) <br>
+	nombreP=Mayusculas(Subcadena(nombreP,0,0))+Subcadena(nombreP,1,Longitud(nombreP)) <br>
+	nombreS=Mayusculas(Subcadena(nombreS,0,0))+Subcadena(nombreS,1,Longitud(nombreS)) <br>
+	Escribir nombreP+" "+nombreS <br>
+FinAlgoritmo <br>
+
 ### 3. Throw Dice
+
+Algoritmo ThrowDice <br>
+	Para z=1 Hasta 10 Con Paso 1 Hacer <br>
+		x=Aleatorio(1,6) <br>
+		y=Aleatorio(1,6) <br>
+		si x==y Entonces <br>
+			Escribir ConvertirATexto(x) +" "+ConvertirATexto(y) + "Los dados son iguales" <br>
+		SiNo <br>
+			Escribir ConvertirATexto(x) +" "+ConvertirATexto(y) <br>
+		FinSi <br>
+	Fin Para <br>
+FinAlgoritmo <br>
+
 
 ### WEDNESDAY 
 ### 1. Distance to Zero
