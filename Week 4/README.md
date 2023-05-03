@@ -82,7 +82,48 @@ FinAlgoritmo <br>
 
 ### WEDNESDAY 
 ### 1. Distance to Zero
+
+Algoritmo DistanceToZero <br>
+	mayor=0 <br>
+	Para x=1 Hasta 5 Con Paso 1 Hacer <br>
+		Escribir "Escriba un número" <br>
+		Leer num <br>
+		si abs(num)>mayor Entonces <br>
+			mayor=trunc(num) <br>
+		FinSi <br>
+	Fin Para <br>
+	Escribir "Más alejado de 0: " + ConvertirATexto(mayor) <br>
+FinAlgoritmo <br>
+
 ### 2. Toss Coin
+
+Algoritmo TossCoin <br>
+	Escribir "Ingrese el nombre del primer jugador" <br>
+	Leer play1 <br>
+	Escribir "Ingrese la cantidad a jugar" <br>
+	Leer cantidad1 <br>
+	Escribir "Ingrese el nombre del segundo jugador" <br>
+	Leer play2 <br>
+	Escribir "Ingrese la cantidad a jugar" <br>
+	Leer cantidad2 <br>
+	si cantidad1<1 |cantidad2<1 Entonces <br>
+		si cantidad1<1 & cantidad2<1 <br>
+			Escribir "Juego cancelado" <br>
+		SiNo <br>
+			si cantidad1<1 Entonces <br>
+				Escribir "Jugador Ganador: " Mayusculas(play2) + " Cantidad Ganada: 0" <br>
+			SiNo <br>
+				Escribir "Jugador Ganador: " Mayusculas(play1) + " Cantidad Ganada: 0" <br>
+			FinSi <br>
+		FinSi <br>
+	SiNo <br>
+		si Aleatorio(1,2)=1 Entonces <br>
+			Escribir "Jugador Ganador: " Mayusculas(play1) + " Cantidad Ganada: " + ConvertirATexto(cantidad2) <br>
+		SiNo <br>
+			Escribir "Jugador Ganador: " Mayusculas(play2) + " Cantidad Ganada: " + ConvertirATexto(cantidad1) <br>
+		finsi <br>
+	FinSi <br>
+FinAlgoritmo <br>
 
 ### THURSDAY
 ### 1. Structure of a function
