@@ -1,8 +1,8 @@
 ## WEEK 5
 
-## MONDAY
+### MONDAY
 
-### 1. Time Converter <br>
+### 1. Time Converter 
 
 Algoritmo exampleTimeConverter <br>
 	Imprimir timeConverter(4000) <br>
@@ -22,3 +22,13 @@ Funcion  result <- timeConverter (number) <br>
 	
 	result="days: "+ ConvertirATexto(dias)+  ", hours: "+ ConvertirATexto(horas)+ ", minutes: "+ ConvertirATexto(minutos)+ ", and seconds: "+ ConvertirATexto(s) <br>
   FinFuncion <br>
+
+### 2. Compare Distances
+
+
+
+### TUESDAY
+
+### WEDNESDAY
+
+### THURSDAY
