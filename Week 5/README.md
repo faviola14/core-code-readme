@@ -51,6 +51,30 @@ FinAlgoritmo <br>
 
 ### TUESDAY
 
+### 1. Sum of Pairs
+
+Funcion retorno <- sumOfPairs () <br>
+	retorno=0 <br>
+	num=0 <br>
+	Repetir <br>
+		Escribir  "Write a number between 1 and 100" <br>
+		Leer  num <br>
+		si num<1 | num>100 <br>
+			Imprimir 'invalid number' <br>
+		SiNo <br>
+			si num%2==0 Entonces <br>
+				retorno=retorno+num <br>
+			FinSi <br>
+		FinSi <br>
+	Mientras Que (num>=1 & num<=100) <br>
+Fin Funcion <br>
+Algoritmo exampleSumOfPairs <br>
+	Imprimir sumOfPairs() <br>
+FinAlgoritmo <br>
+
+
+### 2. Mid Point
+
 ### WEDNESDAY
 
 ### THURSDAY
