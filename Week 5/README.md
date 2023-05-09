@@ -75,6 +75,40 @@ FinAlgoritmo <br>
 
 ### 2. Mid Point
 
+Funcion res <- midPoint ( num1,num2 ) <br>
+	si num1>0 Entonces <br>
+		si num2>0 Entonces <br>
+			si num2>num1 Entonces <br> <br>
+				suma=num1-num2 <br>
+				res=(suma/2)+num2 <br>
+			SiNo <br>
+				suma=num2-num1 <br>
+				res=(suma/2)+num1 <br>
+			FinSi <br>
+		SiNo <br>
+			suma=abs(num2)+num1 <br>
+			res=num1-(suma/2) <br>
+		FinSi <br>
+	SiNo <br>
+		si num2>0 Entonces <br>
+			suma=abs(num1)+num2 <br>
+			res=(suma/2)+num1 <br>
+		SiNo <br>
+			si abs(num1)>abs(num2) Entonces <br>
+				suma=abs(num1)-abs(num2) <br>
+				res=(suma/2)+num1 <br>
+			SiNo <br>
+				suma=abs(num2)-abs(num1) <br>
+				res=(suma/2)+num2 <br>
+			FinSi <br>
+		FinSi <br>
+	FinSi <br>
+Fin Funcion <br>
+
+Algoritmo exampleMidpPoint <br>
+	Imprimir midPoint(40,80) <br>
+FinAlgoritmo <br>
+
 ### WEDNESDAY
 
 ### THURSDAY
