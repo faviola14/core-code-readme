@@ -19,12 +19,34 @@ Funcion  result <- timeConverter (number) <br>
 	Escribir ConvertirATexto(minutos) <br>
 	s=number%60 <br>
 	Escribir ConvertirATexto(s) <br>
-	
 	result="days: "+ ConvertirATexto(dias)+  ", hours: "+ ConvertirATexto(horas)+ ", minutes: "+ ConvertirATexto(minutos)+ ", and seconds: "+ ConvertirATexto(s) <br>
   FinFuncion <br>
 
 ### 2. Compare Distances
 
+Funcion res <- compareDistances (  )  <br>
+	definir positivos,negativos Como Entero <br>
+	positivos=0 <br>
+	negativos=0 <br>
+	Para x<-1 Hasta 5 Con Paso 1 Hacer <br>
+		Imprimir "Escriba un número" <br>
+		Leer num1 <br>
+		si num1>0 Entonces <br>
+			positivos=positivos+num1 <br>
+		sino <br>
+			negativos=negativos+abs(num1) <br>
+		FinSi <br>
+	Fin Para <br>
+	si positivos>negativos Entonces <br>
+		res="true" <br>
+	SiNo <br>
+		res="false" <br>
+	FinSi <br>
+Fin Funcion <br>
+
+Algoritmo exampleCompareDistances <br>
+	Imprimir CompareDistances() <br>
+FinAlgoritmo <br>
 
 
 ### TUESDAY
