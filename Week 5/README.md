@@ -118,5 +118,7 @@ FinAlgoritmo <br>
 ### THURSDAY
 
 ### 1. If
-### 3. For
+
 ### 2. While
+
+### 3. For
