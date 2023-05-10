@@ -111,4 +111,12 @@ FinAlgoritmo <br>
 
 ### WEDNESDAY
 
+### 1. Cachier
+
+### 2. Weather average
+
 ### THURSDAY
+
+### 1. If
+### 3. For
+### 2. While
