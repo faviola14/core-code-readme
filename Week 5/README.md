@@ -113,43 +113,83 @@ FinAlgoritmo <br>
 
 ### 1. Cashier
 
-Funcion d <- deposit (  )<br>
-	Escribir "how much do you want to deposit:"<br>
-	leer d<br>
-Fin Funcion<br>
+Funcion d <- deposit (  ) <br>
+	Escribir "how much do you want to deposit:" <br>
+	leer d <br>
+Fin Funcion <br>
 
-Funcion d <- withdraw (  )<br>
-	Escribir "how much do you want to withdraw:"<br>
-	leer d<br>
-Fin Funcion<br>
+Funcion d <- withdraw (  ) <br>
+	Escribir "how much do you want to withdraw:" <br>
+	leer d <br>
+Fin Funcion <br>
 
-Funcion saldo <- cashier (  )<br>
-	saldo=1000<br>
-	Repetir<br>
-		Escribir "Select an option:"<br>
-		Escribir "a. To deposit."<br>
-		Escribir "b. Withdraw."<br>
-		Escribir  "c. Go out"<br>
-		Leer opc<br>
-		Segun opc Hacer<br>
-			"a"| "A":<br>
-				saldo=saldo+ConvertirANumero(deposit())<br>
+Funcion saldo <- cashier (  ) <br>
+	saldo=1000 <br>
+	Repetir <br>
+		Escribir "Select an option:" <br>
+		Escribir "a. To deposit." <br>
+		Escribir "b. Withdraw." <br>
+		Escribir  "c. Go out" <br>
+		Leer opc <br>
+		Segun opc Hacer <br>
+			"a"| "A": <br>
+				saldo=saldo+ConvertirANumero(deposit()) <br>
 			"b"| "B":<br>
-				saldo=saldo-ConvertirANumero(withdraw())<br>
+				saldo=saldo-ConvertirANumero(withdraw()) <br>
 			De Otro Modo:<br>
-				Escribir" opción incorrecta"<br>
+				Escribir" opción incorrecta" <br>
 		Fin Segun<br>
-	Mientras Que opc<>"c" & opc<>"C"<br>
+	Mientras Que opc<>"c" & opc<>"C" <br>
 Fin Funcion<br>
 
-Algoritmo exampleCashier<br>
-	Imprimir cashier()<br>
+Algoritmo exampleCashier <br>
+	Imprimir cashier() <br>
 FinAlgoritmo <br>
 	
 
 ### 2. Weather average
 
+Funcion celciu <- farenheit (  ) <br>
+	Definir celsius Como Real <br>
+	Definir degrees Como Caracter <br>
+	leer degrees <br>
+	celciu= (ConvertirANumero(degrees)-32)/1.8 <br>
+Fin Funcion <br>
 
+Funcion celciu <- celcius (  ) <br>
+	Definir celsiu Como Real <br>
+	Definir degrees Como Caracter <br>
+	Leer degrees <br>
+	celciu=ConvertirANumero(degrees) <br>
+Fin Funcion <br>
+
+Algoritmo exampleWeatherAverage <br>
+	Definir celciu Como Real <br>
+	definir promedio Como Real <br>
+	definir opc Como Caracter <br>
+	contador=0 <br>
+	celciu=0 <br>
+	Repetir <br>
+		Escribir "Select an Option" <br>
+		Escribir "a. Enter degrees celcius" <br> <br>
+		Escribir "b. Enter degrees farenheit" <br>
+		Escribir "x. Go out" <br>
+		Leer opc <br>
+		Segun opc Hacer <br>
+			"a" | "A": <br>
+				celciu=celciu+celcius() <br>
+				contador=contador+1 <br>
+			"b" | "B": <br>
+				celciu=celciu+farenheit() <br>
+				contador=contador+1 <br>
+			"c" | "C": <br>
+				promedio=celciu/contador <br>
+				Imprimir ConvertirATexto(promedio) <br>
+			De Otro Modo: <br>
+				Escribir "opción incorrecta" <br>
+		Fin Segun <br>
+	Mientras Que opc<>"c" & opc<>"C" <br>
+FinAlgoritmo <br>
 
 ### THURSDAY
 
