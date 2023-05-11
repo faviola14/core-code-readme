@@ -111,9 +111,45 @@ FinAlgoritmo <br>
 
 ### WEDNESDAY
 
-### 1. Cachier
+### 1. Cashier
+
+Funcion d <- deposit (  )<br>
+	Escribir "how much do you want to deposit:"<br>
+	leer d<br>
+Fin Funcion<br>
+
+Funcion d <- withdraw (  )<br>
+	Escribir "how much do you want to withdraw:"<br>
+	leer d<br>
+Fin Funcion<br>
+
+Funcion saldo <- cashier (  )<br>
+	saldo=1000<br>
+	Repetir<br>
+		Escribir "Select an option:"<br>
+		Escribir "a. To deposit."<br>
+		Escribir "b. Withdraw."<br>
+		Escribir  "c. Go out"<br>
+		Leer opc<br>
+		Segun opc Hacer<br>
+			"a"| "A":<br>
+				saldo=saldo+ConvertirANumero(deposit())<br>
+			"b"| "B":<br>
+				saldo=saldo-ConvertirANumero(withdraw())<br>
+			De Otro Modo:<br>
+				Escribir" opción incorrecta"<br>
+		Fin Segun<br>
+	Mientras Que opc<>"c" & opc<>"C"<br>
+Fin Funcion<br>
+
+Algoritmo exampleCashier<br>
+	Imprimir cashier()<br>
+FinAlgoritmo <br>
+	
 
 ### 2. Weather average
+
+
 
 ### THURSDAY
 
