@@ -195,6 +195,25 @@ FinAlgoritmo <br>
 
 ### 1. If
 
+let x <br>
+x=11 <br>
+if (x>10) { <br>
+    resp= "Es mayor a 10" <br>
+    } else { <br>
+        resp= "Es menor a 10" <br>
+    } <br>
+
 ### 2. While
 
+let x <br>
+x=0 <br>
+while (x<10) { <br>
+    resp="Es menor a 10" <br>
+    x=x+1 <br>
+} <br>
+
 ### 3. For
+
+for (let i = 0; i < 10; i++) { <br>
+    resp= "Es menor a 10" <br>
+} <br>
