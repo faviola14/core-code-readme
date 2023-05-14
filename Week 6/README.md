@@ -1,8 +1,10 @@
 ## WEEK 6
 
 ### MONDAY
+### 1. Start this HTML course
 
-### 
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/a4f7fb74-1fdf-4a4d-b16c-51d5ca2afcbf)
+
 
 ### TUESDAY
 ### 1. Development environment
