@@ -36,3 +36,25 @@
 
 ### WEDNESDAY
 ### 1. How to use MDN
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/5711ccee-4732-49f1-8ae0-6d11053a835e)
+
+### 2. Functions
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/b146a6cd-7928-4ab1-8acb-8cc771ea2d51)
+
+### 3. Multiple functions
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/332b5620-d149-45b7-a4d2-dda2f392e858)
+
+### 4. Function calls
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/e86545d7-a81e-4f9f-ace6-94245e05d78e)
+
+### 5. What is x? (function version)
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/05a6c827-a1b9-42a0-ba41-28920a4bdf5a)
+
+### 6. Parameters
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/3a79946a-afcf-4179-8d1b-d23e7a75d145)
+
