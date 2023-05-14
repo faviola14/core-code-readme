@@ -58,3 +58,23 @@
 
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/3a79946a-afcf-4179-8d1b-d23e7a75d145)
 
+
+### THURSDAY
+### 1. Strings
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/b189590d-5a7f-4de0-bb1c-4ab0e32fa918)
+
+### 2. String: length
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/5f245457-bd0b-4317-9aed-3162f1150c94)
+
+### 3. String: toUpperCase()
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/fab909fd-fd3b-48a3-bb87-909493a2544f)
+
+### 4. String: charAt()
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/b94b6569-3d30-405c-9b29-1714b8ac294b)
+
+### 5. String: indexOf()
+
