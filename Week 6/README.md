@@ -78,3 +78,4 @@
 
 ### 5. String: indexOf()
 
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/d327cc6d-17c6-44f7-a05e-a0c77f5219c6)
