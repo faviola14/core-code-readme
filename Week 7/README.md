@@ -53,5 +53,24 @@ function nand(parameter1,parameter2){ <br>
 ### 1. Get started with Codewars
 
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/3b0ed6fb-02ec-4dae-8ac2-7ff84536156e)
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/d6c4b5c2-b037-4341-9fa6-605ac06d4df3)
 
+### 2. Objects
+
+function animal(obj){ <br>
+    const animales =obj <br>
+    let color=animales.color <br>
+    let name= animales.name <br>
+    let legs= animales.legs <br>
+    return "This "+color+" "+name+" has "+legs+" legs." <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/f84114c7-7832-4dc7-abe5-f53dcb6deec4)
+
+
+### 3. Return to sanity
+
+
+
+### 4. Object syntax debug
 
