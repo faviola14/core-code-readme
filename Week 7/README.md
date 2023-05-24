@@ -147,3 +147,75 @@ function Ship(draft,crew) { <br>
     } <br>
 } <br>
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/48b118a6-201f-4210-ac21-37c80a6dee22)
+
+
+### THURSDAY 
+### 1. Convert a String to a Number!
+
+const stringToNumber = function(str){ <br>
+    // put your code here <br>
+    return Number(str) <br>
+    return null; <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/499d3f0b-8aa9-4bc1-969e-099cb660d48d)
+
+### 2. Convert number to reversed array of digits
+
+function digitize(n) { <br>
+    //code here <br>
+    let y=n.toString() <br>
+    let x=y.split("") <br>
+    let salida=[] <br>
+    for (z=x.length-1;z>-1;z--){ <br>
+        salida.push(Number(y[z]) ) <br>
+    } <br>
+    return salida <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/8c68215f-3855-490f-b164-da342240c897)
+
+### 3. Truthy and Falsy
+
+const truthy = []; <br>
+const falsy = []; <br>
+truthy.push(1) <br>
+truthy.push("true") <br>
+truthy.push(2) <br>
+truthy.push(true) <br>
+truthy.push({}) <br>
+falsy.push(0) <br>
+falsy.push("") <br>
+falsy.push(undefined) <br>
+falsy.push(false) <br>
+falsy.push(null) <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/065dc2f2-dfcc-4643-957f-d9cc6bde06b6)
+
+### 4. Training JS #4: Basic data types--Array
+
+function getLength(arr){ <br>
+  //return length of arr <br>
+  return arr.length <br>
+} <br>
+function getFirst(arr){ <br>
+  //return the first element of arr <br>
+  return arr[0] <br>
+} <br>
+function getLast(arr){ <br>
+  //return the last element of arr <br>
+  return arr[arr.length-1] <br>
+} <br>
+function pushElement(arr){ <br>
+  var el=1; <br>
+  //push el to arr <br>
+  arr.push(el) <br>
+  return arr <br>
+} <br>
+function popElement(arr){ <br>
+  //pop an element from arr <br>
+  arr.pop() <br>
+  return arr <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/74720f3a-b5a4-4091-8962-0e1097fd8f64)
