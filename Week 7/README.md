@@ -70,7 +70,31 @@ function animal(obj){ <br>
 
 ### 3. Return to sanity
 
+function mystery() { <br>
+    var results = <br>
+    {sanity: 'Hello'}; <br>
+    return results; <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/745f3d7a-3782-49e4-a448-3a336e171feb)
 
 
 ### 4. Object syntax debug
 
+var rooms = { <br>
+    first: { <br>
+    description: 'This is the first room', <br>
+    items: { <br>
+        chair: 'The old chair looks comfortable', <br>
+        lamp: 'This lamp looks ancient' <br>
+    }}, <br>
+    second: { <br>
+    description: 'This is the second room', <br>
+    items: { <br>
+        couch: 'This couch looks like it would hurt your back', <br>
+        table: 'On the table there is an unopened bottle of water' <br>
+    } <br>
+    } <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/f53c989a-826c-40d9-9ba7-fff55e30844f)
