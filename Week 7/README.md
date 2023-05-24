@@ -98,3 +98,52 @@ var rooms = { <br>
 } <br>
 
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/f53c989a-826c-40d9-9ba7-fff55e30844f)
+
+
+
+### WEDNESDAY
+### 1. Count strings in objects
+
+function strCount(obj){ <br>
+    let contador =0 <br>
+    for (x in obj)} <br>
+        if (typeof obj[x] == "string"){ <br>
+            contador++ <br>
+        } <br>
+        if (typeof obj[x] == "object"){ <br>
+            contador= contador + strCount(obj[x]) <br>
+        } <br>
+    } <br>
+    return contador <br>
+    } <br>
+    
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/1ee95df1-13ed-47da-bc9f-75f35ba207dc)
+
+
+### 2. Extending JavaScript Objects: Get First & Last Array Element
+
+Array.prototype.first = function() {<br>
+    return this[0] <br>
+} <br>
+Array.prototype.last = function() { <br>
+    return this[this.length-1] <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/aec46e8c-d7a4-464a-b5e7-78e8aa6f710e)
+
+### 3. Object Oriented Piracy
+
+function Ship(draft,crew) { <br>
+    this.draft = draft; <br>
+    this.crew = crew; <br>
+    this.isWorthIt = function (){ <br>
+        peso=crew*1.5 <br>
+        if (draft-peso>20){ <br>
+            return true <br>
+        } <br>
+        else{ <br>
+            return false <br>
+        } <br>
+    } <br>
+} <br>
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/48b118a6-201f-4210-ac21-37c80a6dee22)
