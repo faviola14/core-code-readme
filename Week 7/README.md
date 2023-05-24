@@ -46,3 +46,12 @@ function nand(parameter1,parameter2){ <br>
 } <br>
 
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/51c00417-8fe2-448e-9159-219e2574ddc2)
+
+
+
+### TUESDAY
+### 1. Get started with Codewars
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/3b0ed6fb-02ec-4dae-8ac2-7ff84536156e)
+
+
