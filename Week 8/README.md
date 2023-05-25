@@ -168,12 +168,44 @@ function likes(names) { <br>
 
 ### 2. Bit counting
 
+var countBits = function(n) { <br>
+    let x= n.toString(2); <br> <br>
+    var y=0; <br>
+    for(let i= 0;i<x.length;i++){ <br>
+        if(x[i]==='1'){ <br>
+            y++; <br>
+        } <br>
+    } <br>
+    return y <br>
+}; <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/b08d1cb8-5478-4e9b-8588-ab62b6633342)
 
 
 ### 3. Your order, please
 
+function order(words){ <br>
+    if(words=="") return "" <br>
+    else{ <br>
+        let order="" <br>
+        const word=words.split(' '); <br>
+        for (let y=1;y<word.length+1;y++){ <br>
+            for (let z in word){ <br>
+                if (word[z].includes(y)){ <br>
+                    if (y>1) order=order+" " <br>
+                    if(word[z].includes(y))order=order+word[z] <br>
+                } <br>
+            } <br>
+        } <br>
+        return order <br>
+    } <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/ca1b9aa4-ef08-49ac-ae4d-77e7d8c461fb)
+
 
 ## THURSDAY
+
 ### 1. Counting duplicates
 ### 2. Encrypt this!
 ### 3. Valid parentheses
