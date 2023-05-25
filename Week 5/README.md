@@ -1,6 +1,6 @@
 ## WEEK 5
 
-### MONDAY
+## MONDAY
 
 ### 1. Time Converter 
 
@@ -49,7 +49,7 @@ Algoritmo exampleCompareDistances <br>
 FinAlgoritmo <br>
 
 
-### TUESDAY
+## TUESDAY
 
 ### 1. Sum of Pairs
 
@@ -109,7 +109,7 @@ Algoritmo exampleMidpPoint <br>
 	Imprimir midPoint(40,80) <br>
 FinAlgoritmo <br>
 
-### WEDNESDAY
+## WEDNESDAY
 
 ### 1. Cashier
 
@@ -191,7 +191,7 @@ Algoritmo exampleWeatherAverage <br>
 	Mientras Que opc<>"c" & opc<>"C" <br>
 FinAlgoritmo <br>
 
-### THURSDAY
+## THURSDAY
 
 ### 1. If
 
