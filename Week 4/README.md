@@ -1,6 +1,6 @@
 ## WEEK 4
 
-### MONDAY
+## MONDAY
 ### 1. Average Sales and Commissions 
 
 Algoritmo AverageSalesCommissions <br>
@@ -49,7 +49,7 @@ Algoritmo EvenOrOdd <br>
 	Mientras Que opc=0 <br>
 FinAlgoritmo <br>
 
-### TUESDAY
+## TUESDAY
 
 ### 2. Full Name
 
@@ -80,7 +80,7 @@ Algoritmo ThrowDice <br>
 FinAlgoritmo <br>
 
 
-### WEDNESDAY 
+## WEDNESDAY 
 ### 1. Distance to Zero
 
 Algoritmo DistanceToZero <br>
@@ -125,7 +125,7 @@ Algoritmo TossCoin <br>
 	FinSi <br>
 FinAlgoritmo <br>
 
-### THURSDAY
+## THURSDAY
 
 ### 2. Total Price
 
