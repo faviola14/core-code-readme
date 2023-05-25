@@ -1,6 +1,6 @@
 ## WEEK 2 
 
-### MONDAY
+## MONDAY
 ### Logic Problem
 Sabemos que solo los que estudiaron no mienten entonces
 1. Alice, que dice que nadie estudio, pero eso significaría que todos estan mintiendo, incluso ella.Así que ella esta mintiendo. Por lo tanto al menos 1 persona estudió
@@ -12,7 +12,7 @@ Sabemos que solo los que estudiaron no mienten entonces
 En conclusión **Bob** dice la verdad.
 
 
-### Milk vrs Cereal
+## Milk vrs Cereal
 
 1. Buscar un plato hondo
 2. Colocar la leche en el plato
@@ -24,7 +24,7 @@ En conclusión **Bob** dice la verdad.
 ![Untitled Diagram-Page-8 drawio](https://user-images.githubusercontent.com/98840536/231029277-73d282af-90d0-429a-9157-4350341bca6f.png)
 
 
-### TUESDAY
+## TUESDAY
 
 ### 1. Install PSeInt
 
@@ -41,7 +41,7 @@ En conclusión **Bob** dice la verdad.
 ![tuesday3](https://user-images.githubusercontent.com/98840536/231201708-51f0b6d0-9b38-4a98-8d89-644aee91675b.PNG)
 
 
-### WEDNESDAY
+## WEDNESDAY
 
 ### 1. Algorithm game
 
@@ -55,7 +55,7 @@ En conclusión **Bob** dice la verdad.
 
 ![RegisterForm](https://user-images.githubusercontent.com/98840536/232373284-e331bb58-43c9-4b0e-a100-e77590d64584.PNG)
 
-### THURSDAY 
+## THURSDAY 
 
 ### 1. Thruth Tables ✅  ❌
 
