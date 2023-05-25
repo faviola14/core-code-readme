@@ -3,6 +3,19 @@
 ## MONDAY
 ### 1. Training JS #7: if..else and ternary operator
 
+function saleHotdogs(n){ <br>
+    if (n<5){<br>
+    price=n*100<br>
+    }<br>
+    if (n >= 5 && n < 10){<br>
+        price=n*95
+    }<br>
+    if (n >= 10){
+        price=n*90
+    }
+    return price
+}
+
 
 ### 2. Training JS #8: conditional statement--switch
 
