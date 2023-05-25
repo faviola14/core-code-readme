@@ -1,6 +1,6 @@
 ## WEEK 7
 
-### MONDAY
+## MONDAY
 ### 1. String: substr()
 
 function firstWord(palabra){ <br>
@@ -49,7 +49,7 @@ function nand(parameter1,parameter2){ <br>
 
 
 
-### TUESDAY
+## TUESDAY
 ### 1. Get started with Codewars
 
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/3b0ed6fb-02ec-4dae-8ac2-7ff84536156e)
@@ -101,7 +101,7 @@ var rooms = { <br>
 
 
 
-### WEDNESDAY
+## WEDNESDAY
 ### 1. Count strings in objects
 
 function strCount(obj){ <br>
@@ -149,7 +149,7 @@ function Ship(draft,crew) { <br>
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/48b118a6-201f-4210-ac21-37c80a6dee22)
 
 
-### THURSDAY 
+## THURSDAY 
 ### 1. Convert a String to a Number!
 
 const stringToNumber = function(str){ <br>
