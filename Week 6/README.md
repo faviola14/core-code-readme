@@ -1,12 +1,12 @@
 ## WEEK 6
 
-### MONDAY
+## MONDAY
 ### 1. Start this HTML course
 
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/a4f7fb74-1fdf-4a4d-b16c-51d5ca2afcbf)
 
 
-### TUESDAY
+## TUESDAY
 ### 1. Development environment
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/078f338e-7165-4d6b-a394-7bab6b5302df)
 
@@ -36,7 +36,7 @@
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/82c825ab-5445-416b-9c33-fbb3219c53b9)
 
 
-### WEDNESDAY
+## WEDNESDAY
 ### 1. How to use MDN
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/5711ccee-4732-49f1-8ae0-6d11053a835e)
 
@@ -61,7 +61,7 @@
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/3a79946a-afcf-4179-8d1b-d23e7a75d145)
 
 
-### THURSDAY
+## THURSDAY
 ### 1. Strings
 
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/b189590d-5a7f-4de0-bb1c-4ab0e32fa918)
