@@ -1,6 +1,6 @@
 ## WEEK 3 
 
-### MONDAY
+## MONDAY
 ### 1. Simple Calculator
 <p>Algoritmo SimpleCalculator <br>
 	Escribir "Ingrese el primer número: " <br>
@@ -56,7 +56,7 @@ Algoritmo specialNumber <br>
 FinAlgoritmo <br>
 
 
-### TUESDAY
+## TUESDAY
 ### 1. Simple calculator with Switch
 
 Algoritmo SimpleCalculatorSwitch <br>
@@ -138,7 +138,7 @@ Algoritmo MultiOptionProgram <br>
 	Fin Segun <br>
 FinAlgoritmo <br>
 
-### WEDNESDAY
+## WEDNESDAY
 ### 1. Multiplication Tables <br>
 
 Algoritmo MultiplicationTables <br>
@@ -190,7 +190,7 @@ Algoritmo SimpleCalculatorSwitch <br>
 FinAlgoritmo <br>
 
 
-### THURSDAY
+## THURSDAY
 ### 1. Multiplication Tables with For
 
 Algoritmo MultiplicationTablesFor <br>
