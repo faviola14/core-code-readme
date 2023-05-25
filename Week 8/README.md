@@ -150,8 +150,29 @@ decodeMorse = function(morseCode){ <br>
 
 ## WEDNESDAY
 ### 1. Who likes it?
+
+function likes(names) { <br>
+    switch(names.length){ <br>
+        case 0: return "no one likes this" <br>
+        case 1: return names[0]+ " likes this" <br>
+        case 2: return names[0]+  " and "+names[1]+" like this" <br>
+        case 3: return names[0]+ ", "+names[1]+" and "+names[2]+" like this" <br>
+        default: <br>
+            var x=names.length-2 <br>
+            return  names[0]+ ", "+names[1]+" and "+x+" others like this" <br>
+    } <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/fbc5b326-f5ce-49d1-b06f-91bb72bee407)
+
+
 ### 2. Bit counting
+
+
+
 ### 3. Your order, please
+
+
 ## THURSDAY
 ### 1. Counting duplicates
 ### 2. Encrypt this!
