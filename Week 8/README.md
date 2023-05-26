@@ -207,6 +207,69 @@ function order(words){ <br>
 ## THURSDAY
 
 ### 1. Counting duplicates
+
+function duplicateCount(text){ <br>
+    text= text.toLowerCase(); <br> <br>
+    let resp=0; <br>
+    for (let x = 0; x < text.length; x++){ <br>
+        if (text.indexOf(text[x])!== text.lastIndexOf(text[x])){ <br>
+            resp=resp+1; <br>
+           const y = new RegExp(text[x], 'g') <br> <br>
+            text = text.replace(y, ''); <br>
+            x = x - 1; <br>
+        } <br>
+    } <br>
+    return resp <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/4f48b7bb-e871-4ed8-a277-db02205bf951)
+
+
 ### 2. Encrypt this!
+
+var encryptThis = function(text) { <br>
+    let x=text.split(" ") <br>
+    let res="" <br>
+    for (let n = 0; n < x.length; n++){ <br>
+        let newWord="" <br>
+        newWord=x[n].charCodeAt(0) <br>
+        if (x[n].length==2) newWord=newWord+x[n].charAt(1) <br>
+        if (x[n].length>2) newWord=newWord+x[n].charAt(x[n].length-1)+x[n].substring(2,x[n].length-1)+x[n].charAt(1) <br>
+        if (n!==0) res=res+" "+newWord <br>
+        else res=res+newWord <br>
+    } <br>
+    return res <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/d2452493-66d0-4a0d-97d4-21b2cbb1aeb6)
+
+
 ### 3. Valid parentheses
+
+function validParentheses(parens) { <br>
+    let x=parens.split(""); <br>
+    let res=0 <br>
+    for (let n of x){ <br>
+        if (n==="\(") res++ <br>
+        if (n==="\)") res-- <br>
+        if (res<0) return false <br>
+    } <br>
+    return res==0 <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/abf58fba-1279-4197-b2fc-40f892dba577)
+
+
 ### 4. Convert string to camel case
+
+function toCamelCase(str){ <br>
+    str=str.replace("_","-") <br>
+    str=str.replace("_","-") <br>
+    let words= str.split("-") <br>
+    let res="" <br>
+    for(let x of words){ <br>
+        x=x.replace(x[0],(x[0].toUpperCase())) <br>
+        res=res+x <br>
+    } <br>
+    return res <br>
+} <br>
