@@ -3,11 +3,11 @@
 ## MONDAY
 ### 1. "this" is a problem
 
-function NameMe(first, last) {
-    this.firstName = first;
-    this.lastName = last;
-    this.name= this.firstName + ' ' + this.lastName;
-}
+function NameMe(first, last) { <br>
+    this.firstName = first; <br>
+    this.lastName = last; <br>
+    this.name= this.firstName + ' ' + this.lastName; <br>
+} <br>
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/4649e37c-9458-4089-8076-cd0979b1db66)
 
 
