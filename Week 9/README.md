@@ -31,6 +31,31 @@ function processData(data) { <br>
 
 ### 3. Stop gninnipS My sdroW!
 
+function spinWords(string){ <br>
+    let words = string.split(' '); <br>
+    let strings = ""; <br> <br>
+    let word = ""; <br>
+    let drow = ""; <br>
+    for (let x in words) { <br>
+        if (words[x].length > 4) { <br>
+            word = words[x]; <br>
+            for (let y = word.length - 1; y > -1; y--){ <br>
+                drow = drow + word[y]; <br>
+            } <br>
+            words[x] = drow; <br>
+            word = ""; <br>
+            drow = ""; <br>
+        } <br>
+        if (x > 0) { <br>
+            strings = strings + " " + words[x]; <br>
+        } else { <br>
+            strings = strings + words[x]; <br>
+        } <br>
+    } <br>
+    return strings <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/ec069944-e9c5-4317-bc1d-83a9c1962c4a)
 
 
 ## TUESDAY
