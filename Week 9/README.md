@@ -60,6 +60,27 @@ function spinWords(string){ <br>
 
 ## TUESDAY
 ### 1. "this" is an other problem
+
+function NamedOne(first, last) { <br>
+    this.firstName = first; <br>
+    this.lastName = last; <br>
+    Object.defineProperty(this, 'fullName', { <br>
+        get: function() { <br>
+            return this.firstName + " " + this.lastName; <br>
+        }, <br>
+        set: function(name) { <br>
+            const parts = name.split(' '); <br>
+            if (parts.length === 2) { <br>
+                this.firstName = parts[0]; <br>
+                this.lastName = parts[1]; <br>
+            } <br>
+        } <br>
+    }) <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/d61443fa-b5c0-4e0e-9868-89a7b8cf4480)
+
+
 ### 2. "Who likes it?"
 ### 3. Convert string to camel case
 
