@@ -112,8 +112,43 @@ function toCamelCase(str){ <br>
 
 ## WEDNESDAY
 ### 1. Easy mathematical callback
+
+function processArray(arr, callback) { <br>
+    let arrD <br>
+    for (let i = 0; i < arr.length; i++) { <br>
+        arrD[i]=callback(arr[i]) <br>
+    } <br>
+    return arrD <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/ad94e015-5daf-40e1-b70a-bc87ff4b713c)
+
+
 ### 2. Moving Zeros To The End
+
+function moveZeros(arr) { <br>
+    let arrNo0 = arr.filter(x => x !== Number(0)) <br>
+    let arr0 = arr.filter(x => x === Number(0)) <br>
+    arr=arrNo0.concat(arr0) <br>
+    return arr <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/f1cf33fe-6228-49eb-8226-2c65a7abc982)
+
 ### 3. Valid Parentheses
+
+function validParentheses(parens) { <br>
+    let x=parens.split(""); <br>
+    let res=0 <br>
+    for (let n of x){ <br>
+        if (n==="\(") res++ <br>
+        if (n==="\)") res-- <br>
+        if (res<0) return false <br>
+    } <br>
+    return res==0 <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/ab8d68ca-b878-408f-a874-b7a7d2a87c58)
 
 
 ## THURSDAY
