@@ -82,7 +82,33 @@ function NamedOne(first, last) { <br>
 
 
 ### 2. "Who likes it?"
+
+function likes(names) { <br>
+    switch(names.length){ <br>
+        case 0: return "no one likes this" <br>
+        case 1: return names[0]+ " likes this" <br>
+        case 2: return names[0]+  " and "+names[1]+" like this" <br>
+        case 3: return names[0]+ ", "+names[1]+" and "+names[2]+" like this" <br>
+        default: <br>
+            var x=names.length-2 <br>
+            return  names[0]+ ", "+names[1]+" and "+x+" others like this" <br>
+    } <br>
+} <br>
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/59ecd8ec-1edd-4f03-a9c0-7928c9ddae82)
+
+
 ### 3. Convert string to camel case
+
+function toCamelCase(str){ <br>
+    str=str.replace(/_/g,"-") <br>
+    let words= str.split("-") <br>
+    let res="" <br>
+    for(let x of words){ <br>
+        x=x.replace(x[0],(x[0].toUpperCase())) <br>
+        res=res+x <br>
+    } <br>
+    return res <br>
+} <br>
 
 ## WEDNESDAY
 ### 1. Easy mathematical callback
