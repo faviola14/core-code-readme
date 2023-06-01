@@ -263,12 +263,13 @@ function validParentheses(parens) { <br>
 ### 4. Convert string to camel case
 
 function toCamelCase(str){ <br>
-    str=str.replace("_","-") <br>
-    str=str.replace("_","-") <br>
+  if (str==="") return "" <br>
+    str=str.replace(/_/g,"-") <br>
     let words= str.split("-") <br>
     let res="" <br>
-    for(let x of words){ <br>
-        x=x.replace(x[0],(x[0].toUpperCase())) <br>
+    for (let x of words) { <br>
+        x=x.toLowerCase() <br>
+        x=x.replace(x[0],(x[0].toUpperCase())) <br> <br>
         res=res+x <br>
     } <br>
     return res <br>
