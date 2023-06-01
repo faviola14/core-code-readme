@@ -100,11 +100,13 @@ function likes(names) { <br>
 ### 3. Convert string to camel case
 
 function toCamelCase(str){ <br>
+  if (str==="") return "" <br>
     str=str.replace(/_/g,"-") <br>
     let words= str.split("-") <br>
     let res="" <br>
-    for(let x of words){ <br>
-        x=x.replace(x[0],(x[0].toUpperCase())) <br>
+    for (let x of words) { <br>
+        x=x.toLowerCase() <br>
+        x=x.replace(x[0],(x[0].toUpperCase())) <br> <br>
         res=res+x <br>
     } <br>
     return res <br>
@@ -153,4 +155,24 @@ function validParentheses(parens) { <br>
 
 ## THURSDAY
 ### 1. The Hashtag Generator
+
+function generateHashtag(str) { <br>
+    str=str.toLowerCase() <br>
+    if (str.replace(/ /g, "") === "") return false <br>
+    if (str.replace(/ /g, "").length +1 > 140) return false <br>
+    let hashtag = "#"; <br>
+    let words = str.split(' '); <br>
+    words=words.filter(x => x !== ' ') <br>
+    words=words.filter(x => x !== '') <br>
+    for (let i = 0; i < words.length; i++){ <br>
+        let word = words[i]; <br>
+        word = word.replace(word[0], word[0].toUpperCase()); <br>
+        hashtag = hashtag + word; <br>
+    } <br>
+    return hashtag <br>
+} <br>
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/14aa355e-333f-433f-b4f1-e640ae434bdd)
+
+
 ### 2. String incrementer
