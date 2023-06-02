@@ -176,3 +176,36 @@ function generateHashtag(str) { <br>
 
 
 ### 2. String incrementer
+
+function incrementString(string) { <br>
+    let suma = 0; <br>
+    let contador = 0; <br>
+    if (isNaN(string[string.length - 1])) { <br>
+        return string + "1"; <br>
+    } <br>
+    else { <br>
+        if (string[string.length - 1] === "0") { <br>
+            let num = Number(string[string.length - 1]) <br>
+            suma = Number(num + 1); <br>
+            string = string.substring(0, string.length - 1); <br>
+        } else { <br>
+            let num = Number(string[string.length - 1]) <br>
+            suma = Number(num + 1); <br>
+            string = string.substring(0, string.length - 1); <br>
+            for (let i = string.length - 1; i > -1; i--){ <br>
+                contador = contador + 1; <br>
+                if (isNaN(string[i])) { <br> <br>
+                    break; <br>
+                } else { <br>
+                    if (string[string.length - 1] === "0" && contador===((suma.toString()).length)) break; <br>
+                    num = Number(string[i]); <br>
+                    suma = suma + (num) * (Math.pow(10, contador)); <br>
+                    string = string.substring(0, i); <br>
+                } <br>
+            } <br>
+        } <br>
+    } <br>
+    string = string + suma.toString(); <br>
+    return string <br>
+} <br>
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/89390a54-5c57-4b91-9f27-71920bac18bb)
