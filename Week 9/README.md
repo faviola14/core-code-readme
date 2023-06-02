@@ -116,7 +116,7 @@ function toCamelCase(str){ <br>
 ### 1. Easy mathematical callback
 
 function processArray(arr, callback) { <br>
-    let arrD <br>
+    let arrD = []; <br>
     for (let i = 0; i < arr.length; i++) { <br>
         arrD[i]=callback(arr[i]) <br>
     } <br>
