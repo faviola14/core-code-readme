@@ -2,4 +2,6 @@
 
 ## MONDAY
 ### 1. 
---print("Hello World")--
+```python
+print("Hello World")
+```
