@@ -74,7 +74,23 @@
 ***
 ### 5. REST API Clients
 ##### 1. Install Postman in your computer, follow this guide
-##### 1. Watch this course about how to use Postman to interact with APIs
-##### 1. Answer the questions:
+##### 2. Watch this course about how to use Postman to interact with APIs
+##### 3. Answer the questions:
 ##### Postman only works with REST APIs?
 ##### Is there an alternative to Postman?
+
+
+## TUESDAY
+
+### 1. Express.JS Core Understanding
+##### 1.  about the Chain of Responsibility design pattern here.
+##### 2. Express JS Hello World:
+##### Create a new Node.JS project using NPM.
+##### Install Express.JS as an external dependency in your project following this guide.
+##### Create an Express.JS Hello World application following this guide.
+***
+
+### 2. Forrest Gump Ping-Pong API 🏓:
+
+***
+### 3. Delayed Response API ⏳:
