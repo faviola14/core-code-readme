@@ -14,11 +14,11 @@
 ##### 6. What is NVM and Why is it useful for Node.JS developers?
 ***
 ### 2. Node.JS Module System
-###### 1. What is a Javascript Module?
-###### 2. Why are Javascript Modules necessary?
-###### 3. What module standards are available in Node.JS?
-###### 4. What are the differences between ESModules and CommonJS modules?
-###### 5. Which types of modules exist in Node.JS?
+##### 1. What is a Javascript Module?
+##### 2. Why are Javascript Modules necessary?
+##### 3. What module standards are available in Node.JS?
+##### 4. What are the differences between ESModules and CommonJS modules?
+##### 5. Which types of modules exist in Node.JS?
 ***
 ### 3. Node.JS Hello World - Practice
 
