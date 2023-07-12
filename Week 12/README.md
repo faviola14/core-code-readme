@@ -5,13 +5,23 @@
 ### 1. Node.JS Core Understanding
 ##### 1. What is Node.JS?
 
+Node.JS is a Javascript-based runtime environment used in the creation of web applications.
+
 ##### What is NPM?
+
+It is a management system for Node packages.
 
 ##### 2. What problem does Node.JS solve (Is there any problem that can be solved with Node.JS 🤔)?
 
+Node.JS solves the problem of memory usage for spawning threads by avoiding creating new threads by executing events within the execution process.
+
 ##### 3. What is the V8 Javascript Engine?
 
+It is an open source engine created for Javascript. It allows to execute Javascript code.
+
 ##### 4. Is Node.JS really necessary in the Development ecosystem?
+
+It is very necessary because it is currently one of the best options for web development and is widely used by big companies.
 
 ##### Why not use PHP or Golang?
 
