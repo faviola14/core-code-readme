@@ -27,6 +27,7 @@ used by big companies.
 
 ### Why not use PHP or Golang?
 
+
 ### 5. What is the difference between Node.JS and any other browser?
 
 ### Are Node.JS and a browser the same?
@@ -95,11 +96,19 @@ used by big companies.
 ***
 ### 5. REST API Clients
 ### 1. Install Postman in your computer, follow this guide
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/834b53f6-ceb6-474c-b0bf-129c476f1beb)
+
 ### 2. Watch this course about how to use Postman to interact with APIs
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/0382333d-177d-4f30-9863-3a0408ee081c)
+
 ### 3. Answer the questions:
 ### Postman only works with REST APIs?
-### Is there an alternative to Postman?
 
+Yes, it only work with REST APIs.
+
+### Is there an alternative to Postman?
+Yes, there is a lot of alternatives like Katalon, SoapUI, JMeter, etc.
 
 ## TUESDAY
 
