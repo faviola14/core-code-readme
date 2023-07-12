@@ -1,74 +1,74 @@
-## WEEK 12
+# WEEK 12
 
 ## TUESDAY
 
 ### 1. Node.JS Core Understanding
-##### 1. What is Node.JS?
+### 1. What is Node.JS?
 
 Node.JS is a Javascript-based runtime environment used in the creation of web applications.
 
-#####     - What is NPM?
+#### What is NPM?
 
 It is a management system for Node packages.
 
-##### 2. What problem does Node.JS solve (Is there any problem that can be solved with Node.JS 🤔)?
+#### 2. What problem does Node.JS solve (Is there any problem that can be solved with Node.JS 🤔)?
 
 Node.JS solves the problem of memory usage for spawning threads by avoiding creating new threads by executing events within the execution process.
 
-##### 3. What is the V8 Javascript Engine?
+#### 3. What is the V8 Javascript Engine?
 
 It is an open source engine created for Javascript. It allows to execute Javascript code.
 
-##### 4. Is Node.JS really necessary in the Development ecosystem?
+#### 4. Is Node.JS really necessary in the Development ecosystem?
 
 It is very necessary because it is currently one of the best options for web development and is widely used by big companies.
 
-##### Why not use PHP or Golang?
+#### Why not use PHP or Golang?
 
-##### 5. What is the difference between Node.JS and any other browser?
+#### 5. What is the difference between Node.JS and any other browser?
 
-##### Are Node.JS and a browser the same?
+#### Are Node.JS and a browser the same?
 
-##### 6. What is NVM and Why is it useful for Node.JS developers?
-
-***
-### 2. Node.JS Module System
-##### 1. What is a Javascript Module?
-##### 2. Why are Javascript Modules necessary?
-##### 3. What module standards are available in Node.JS?
-##### 4. What are the differences between ESModules and CommonJS modules?
-##### 5. Which types of modules exist in Node.JS?
-***
-### 3. Node.JS Hello World - Practice
+#### 6. What is NVM and Why is it useful for Node.JS developers?
 
 ***
-### 4. Node.JS Module System - Practice
+## 2. Node.JS Module System
+#### 1. What is a Javascript Module?
+#### 2. Why are Javascript Modules necessary?
+#### 3. What module standards are available in Node.JS?
+#### 4. What are the differences between ESModules and CommonJS modules?
+#### 5. Which types of modules exist in Node.JS?
+***
+## 3. Node.JS Hello World - Practice
+
+***
+## 4. Node.JS Module System - Practice
 
 ***
 
 
 ## WEDNESDAY
 
-### 1. Client-Server Model
-##### 1. What is a Server?
-##### 2. What is a Client?
-##### 3. Is a server just another physical computer?
-##### Why do we refer to a certain class of applications as Servers?
-##### What is the difference?
-##### 4. Is there any similarity between human communication and the client-server model?
-##### List some examples
-##### 5. Is the client-server model applicable only to the Web?
-##### Do desktop applications use the client-server model?
-##### Can you mention any other example of this model outside the Web?
+## 1. Client-Server Model
+#### 1. What is a Server?
+#### 2. What is a Client?
+#### 3. Is a server just another physical computer?
+#### Why do we refer to a certain class of applications as Servers?
+#### What is the difference?
+#### 4. Is there any similarity between human communication and the client-server model?
+#### List some examples
+#### 5. Is the client-server model applicable only to the Web?
+#### Do desktop applications use the client-server model?
+#### Can you mention any other example of this model outside the Web?
 ***
-### 2. HTTP Learning Exercise
-##### 1. What is HTTP?
-##### 2. What is a Communication Protocol?
-##### Do humans use communication protocols?
-##### 3. What is a Request in HTTP?
-##### 4. What is a Response in HTTP?
-##### 5. What is an HTTP method?
-##### 6. What are HTTP request headers?
+## 2. HTTP Learning Exercise
+#### 1. What is HTTP?
+#### 2. What is a Communication Protocol?
+#### Do humans use communication protocols?
+#### 3. What is a Request in HTTP?
+#### 4. What is a Response in HTTP?
+#### 5. What is an HTTP method?
+#### 6. What are HTTP request headers?
 ***
 ### 3. APIs Core Understanding
 ##### 1. What is an API?
