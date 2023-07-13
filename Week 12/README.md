@@ -22,17 +22,24 @@ It is an open source engine created for Javascript. It allows to execute Javascr
 
 ### 4. Is Node.JS really necessary in the Development ecosystem?
 
-It is very necessary because it is currently one of the best options for web development and is widely 
-used by big companies.
+It is very necessary because it is currently one of the best options for web development and 
+is widely used by big companies.
 
 ### Why not use PHP or Golang?
 
+Because Node.JS brings together all the positive characteristics of both in a single environment.
 
 ### 5. What is the difference between Node.JS and any other browser?
 
+The difference is that Node.JS is highly scalable and event-driven.
+
 ### Are Node.JS and a browser the same?
 
+No, unlike the browser where Javascript is sandboxed for your safety, node. js has full access to 
+the system like any other native application.
+
 ### 6. What is NVM and Why is it useful for Node.JS developers?
+
 
 ***
 ## 2. Node.JS Module System
