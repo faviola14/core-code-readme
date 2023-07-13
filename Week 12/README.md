@@ -88,6 +88,29 @@ It is automatically generated to optimize the way dependencies are generated.
 ***
 ## 4. Node.JS Module System - Practice
 
+### main.js
+```javascript
+const { sum, subtract }  = require("./operations");
+
+console.log(sum(1, 2))
+console.log(subtract(1, 2))
+```
+
+### operations.js
+
+```javascript
+const sum = (num1, num2) => {
+    return num1 + num2;
+}
+const subtract = (num1, num2) => {
+    return num1 - num2;
+}
+
+module.exports = { sum, subtract };
+```
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/08cdcbb0-bd95-49dd-9463-22f8be9c87e8)
+
+
 ***
 
 
