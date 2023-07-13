@@ -118,45 +118,113 @@ module.exports = { sum, subtract };
 
 ## 1. Client-Server Model
 ### 1. What is a Server?
+
+
 ### 2. What is a Client?
+
+
 ### 3. Is a server just another physical computer?
+
+
 ### Why do we refer to a certain class of applications as Servers?
+
+
 ### What is the difference?
+
+
 ### 4. Is there any similarity between human communication and the client-server model?
+
+
 ### List some examples
+
+
 ### 5. Is the client-server model applicable only to the Web?
+
+
 ### Do desktop applications use the client-server model?
+
+
 ### Can you mention any other example of this model outside the Web?
+
+
 ***
 ## 2. HTTP Learning Exercise
 ### 1. What is HTTP?
+
+
 ### 2. What is a Communication Protocol?
+
+
 ### Do humans use communication protocols?
+
+
 ### 3. What is a Request in HTTP?
+
+
 ### 4. What is a Response in HTTP?
+
+
 ### 5. What is an HTTP method?
+
+
 ### 6. What are HTTP request headers?
+
+
 ***
-### 3. APIs Core Understanding
+## 3. APIs Core Understanding
 ### 1. What is an API?
+
+
 ### 2. What is a Protocol?
+
+
 ### 3. Is the term API only applicable to the communication of programs over the Internet?
+
+
 ### 4. Why is structured communication between two programs important?
+
+
 ### Do we humans use APIs when communicating without technology?
+
+
 ### 5. Is an API just another program or a standard?
+
+
 ### 6. Do you know any API? Can you list at least 5 examples of APIs?
+
+
 ***
-### 4. From JSON to REST
+## 4. From JSON to REST
 ### 1. What is JSON?
+
+
 ### Is JSON the same as a plain Javascript object?
+
+
 ### 1. What is REST?
+
+
 ### Is REST a programming language, framework, technology, or architecture pattern?
+
+
 ### 1. What is a Resource in REST?
+
+
 ### What is a resource identifier?
+
+
 ### 1. How are HTTP and REST related?
+
+
 ### What HTTP methods does REST use within its architecture rules?
+
+
 ### Why do we use HTTP methods in REST and how do they relate to resources?
+
+
 ### 1. Is REST the same as HTTP?
+
+
 ***
 ### 5. REST API Clients
 ### 1. Install Postman in your computer, follow this guide
@@ -175,14 +243,22 @@ Yes, it only work with REST APIs.
 
 Yes, there is a lot of alternatives like Katalon, SoapUI, JMeter, etc.
 
-## TUESDAY
+## THURSDAY
 
 ### 1. Express.JS Core Understanding
-### 1.  about the Chain of Responsibility design pattern here.
+### 1. Read about the Chain of Responsibility design pattern here.
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/267d9448-2251-4efe-aef0-bf72a111fece)
+
 ### 2. Express JS Hello World:
 ### Create a new Node.JS project using NPM.
 ### Install Express.JS as an external dependency in your project following this guide.
-### Create an Express.JS Hello World application following this guide.
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/ad19211e-5ff2-4d2b-b883-ca41208b4811)
+
+#### Create an Express.JS Hello World application following this guide.
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/6cbc0c00-bfda-4524-8f2f-000818c1a296)
+
 ***
 
 ### 2. Forrest Gump Ping-Pong API 🏓:
