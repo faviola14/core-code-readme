@@ -40,14 +40,35 @@ the system like any other native application.
 
 ### 6. What is NVM and Why is it useful for Node.JS developers?
 
+NVM is a software that allows to download and manage Node.JS versions, 
+it is useful because it helps to solve typical npm problems. 
+
 
 ***
 ## 2. Node.JS Module System
 ### 1. What is a Javascript Module?
+
+It is a Javascript code file that can be ported from other parts of the 
+application. parts of the application.
+
 ### 2. Why are Javascript Modules necessary?
+They are necessary to be able to reuse code efficiently.
+
 ### 3. What module standards are available in Node.JS?
+
+Some of the modules are fs, path, querystring, http and https, etc.
+
+
 ### 4. What are the differences between ESModules and CommonJS modules?
+
+The difference is that CommonJS only allows to load modules synchronously and 
+ESModules allows to load modules synchronously and asynchronously.
+
 ### 5. Which types of modules exist in Node.JS?
+
+Node.JS includes three types of modules: Core Modules, Local Modules y Third Party Modules.
+
+
 ***
 ## 3. Node.JS Hello World - Practice
 
@@ -115,6 +136,7 @@ the system like any other native application.
 Yes, it only work with REST APIs.
 
 ### Is there an alternative to Postman?
+
 Yes, there is a lot of alternatives like Katalon, SoapUI, JMeter, etc.
 
 ## TUESDAY
