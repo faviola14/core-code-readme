@@ -71,7 +71,20 @@ Node.JS includes three types of modules: Core Modules, Local Modules y Third Par
 
 ***
 ## 3. Node.JS Hello World - Practice
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/0e0d37a2-be78-42b4-bb5e-c07498ff0157)
+### 0. Why do we run the npm init command and not node init to create a new Node.JS project?
 
+Because npm is used to update or create Node packages.
+
+### 1. When you entered the npm init command and answered the questions you saw in the terminal, a new file called packacke.json was generated.
+
+### What does this file do?
+
+Maintains the history of installed packages.
+
+### Why is this file generated?
+
+It is automatically generated to optimize the way dependencies are generated.
 ***
 ## 4. Node.JS Module System - Practice
 
