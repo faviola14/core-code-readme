@@ -121,111 +121,150 @@ module.exports = { sum, subtract };
 ## 1. Client-Server Model
 ### 1. What is a Server?
 
+It is a set of computers capable of receiving requests from a client and sending 
+a response to the client.
 
 ### 2. What is a Client?
 
+A computer or software that connects to a server and makes requests. 
 
 ### 3. Is a server just another physical computer?
 
+A server can also be just a computer program.
 
 ### Why do we refer to a certain class of applications as Servers?
 
+They can respond to requests made by a client.
 
 ### What is the difference?
 
+The difference is that a server usually has more capacity than an application.
 
 ### 4. Is there any similarity between human communication and the client-server model?
-
-
 ### List some examples
 
+In communication a person can ask for some information.
+In communication a person can make requests.
 
 ### 5. Is the client-server model applicable only to the Web?
 
+No, it can also be used in others apps or in real life.
 
 ### Do desktop applications use the client-server model?
 
+Some applications that are connected to internet can also use the client-server model or 
+some applications thatare connected with things like a printer or a scanner.
 
 ### Can you mention any other example of this model outside the Web?
 
+A printer can use the client-server model to print documents.
 
 ***
 ## 2. HTTP Learning Exercise
 ### 1. What is HTTP?
 
+It is the hypertext transfer protocol used in some Internet addresses.
 
 ### 2. What is a Communication Protocol?
 
+These are norms or rules that regulate communication on the Internet.
 
 ### Do humans use communication protocols?
 
+Yes, humans use communication protocols with other people.
 
 ### 3. What is a Request in HTTP?
 
+It is a message that the client sends to request information.
 
 ### 4. What is a Response in HTTP?
 
+It is the response that the server gives to the client's request.
 
 ### 5. What is an HTTP method?
 
+They are the ones that allow you to communicate to the server what you want to do.
 
 ### 6. What are HTTP request headers?
+
+It is an intermediary involved between APIs and communication with servers.
 
 
 ***
 ## 3. APIs Core Understanding
 ### 1. What is an API?
 
+It is the code that allows applications to communicate with each other.
 
 ### 2. What is a Protocol?
 
+These are the rules for communication between APIs.
 
 ### 3. Is the term API only applicable to the communication of programs over the Internet?
 
+No, they can also be used to communicate locally.
 
 ### 4. Why is structured communication between two programs important?
 
+It is important to avoid errors and to control the handling of them if they occur.
 
 ### Do we humans use APIs when communicating without technology?
 
+No, nosmally we don't.
 
 ### 5. Is an API just another program or a standard?
 
+An API is a standard of data interchange.
 
 ### 6. Do you know any API? Can you list at least 5 examples of APIs?
 
+Open Weather Map
+Love Calculator
+URL Shortener Service
+PokéAPI
+NASA APIs
 
 ***
+
 ## 4. From JSON to REST
 ### 1. What is JSON?
 
+JSON is a simple text format for data exchange.
 
 ### Is JSON the same as a plain Javascript object?
 
+No, is differrent due to quotation marks.
 
-### 1. What is REST?
-
+### 2. What is REST?
+REST is a communication interface between information systems using the Hypertext 
+Transfer Protocol (HTP).
 
 ### Is REST a programming language, framework, technology, or architecture pattern?
 
+Is a architecture pattern.
 
-### 1. What is a Resource in REST?
+### 3. What is a Resource in REST?
 
+It is a very important element within the REST API.
 
 ### What is a resource identifier?
 
+It is a unique URl that identifies the API.
 
-### 1. How are HTTP and REST related?
+### 4. How are HTTP and REST related?
 
+REST is based in HTTP.
 
 ### What HTTP methods does REST use within its architecture rules?
 
+REST use POST, PUT, GET, DELETE, PATCH.
 
 ### Why do we use HTTP methods in REST and how do they relate to resources?
 
+We use it because REST is based on HTTP and HTTP also use resources.
 
-### 1. Is REST the same as HTTP?
-
+### 5. Is REST the same as HTTP?
+No, HTTP allows more functions that REST
 
 ***
 ### 5. REST API Clients
