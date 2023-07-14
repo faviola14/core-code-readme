@@ -270,3 +270,7 @@ Yes, there is a lot of alternatives like Katalon, SoapUI, JMeter, etc.
 
 ***
 ### 3. Delayed Response API ⏳:
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/2b32b1c3-3019-4d21-b830-881939e99a0f)
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/3f7c387d-12ed-4528-8b10-af49c1f09ea8)
+
+
