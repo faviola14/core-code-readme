@@ -11,6 +11,7 @@
 
 ### 2. NSA Secrets Box API - Hacking Challenge 👨‍💻
 
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/5ac07684-1f2f-4e5b-b0d8-506241962d0f)
 
 
 ### 3. The SQL Murder Mystery Walkthrough - Learning Exercise
