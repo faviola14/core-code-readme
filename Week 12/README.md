@@ -71,7 +71,9 @@ Node.JS includes three types of modules: Core Modules, Local Modules y Third Par
 
 ***
 ## 3. Node.JS Hello World - Practice
+
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/0e0d37a2-be78-42b4-bb5e-c07498ff0157)
+
 ### 0. Why do we run the npm init command and not node init to create a new Node.JS project?
 
 Because npm is used to update or create Node packages.
@@ -232,6 +234,7 @@ module.exports = { sum, subtract };
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/834b53f6-ceb6-474c-b0bf-129c476f1beb)
 
 ### 2. Watch this course about how to use Postman to interact with APIs
+
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/0382333d-177d-4f30-9863-3a0408ee081c)
 
 ### 3. Answer the questions:
@@ -257,6 +260,7 @@ Yes, there is a lot of alternatives like Katalon, SoapUI, JMeter, etc.
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/ad19211e-5ff2-4d2b-b883-ca41208b4811)
 
 #### Create an Express.JS Hello World application following this guide.
+
 ![image](https://github.com/faviola14/core-code-readme/assets/98840536/6cbc0c00-bfda-4524-8f2f-000818c1a296)
 
 ***
