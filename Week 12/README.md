@@ -263,5 +263,10 @@ Yes, there is a lot of alternatives like Katalon, SoapUI, JMeter, etc.
 
 ### 2. Forrest Gump Ping-Pong API 🏓:
 
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/b49e528b-7cf9-4b82-ad78-df43c1a1b89a)
+
+![image](https://github.com/faviola14/core-code-readme/assets/98840536/e58455f6-7d5b-424e-a6c4-c5483ece41c4)
+
+
 ***
 ### 3. Delayed Response API ⏳:
